@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.App {
+  border: 3px solid #f1f1f1;
+  max-width: 333px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+input[name="lastName"] {
+  float: right;
+  width: 49%;
+}
+input[name="firstName"] {
+  width: 49%;
+  float: left;
+}
+input[name="sex"] {
+  width: 50px;
+}
+.textError {
+  color: red;
+  margin: 5px 5px;
+  font-size: 12px;
+  text-align: left;
+}
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.gender {
+  margin: 8px 0;
+  padding: 5px 10px;
+}
